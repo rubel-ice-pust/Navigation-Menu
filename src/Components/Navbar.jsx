@@ -9,12 +9,12 @@ const Navbar = () => {
     const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
   return (
-    <nav className='flex justify-between p-5 items-center border-b bg-[#a02424] nav'>
+    <nav className='flex justify-between p-5 items-center border-b bg-rose-700	 nav'>
       <h1 className='text-4xl logo'>Sicunet. Inc</h1>
       <ul className='hidden  md:flex gap-6'>
         <Link to='/'><li>Home</li></Link>
         <Link to='/features'><li>Features</li></Link>
-        <Link to='/products'><li>Products</li></Link>
+        <Link to='/Services'><li>Services</li></Link>
         <Link to='/about'><li>About</li></Link>
         <Link to='/locations'><li>Locations</li></Link>
         <Link to='/contact'><li>Contact Us</li></Link>
@@ -34,7 +34,7 @@ const Navbar = () => {
       >
         <Link to='/'><li className='hover:text-teal-700'>Home</li></Link>
         <Link to='/features'><li className='hover:text-teal-700'>Features</li></Link>
-        <Link to='/products'><li className='hover:text-teal-700'>Products</li></Link>
+        <Link to='/products'><li className='hover:text-teal-700'>Services</li></Link>
         <Link to='/about'><li className='hover:text-teal-700'>About</li></Link>
         <Link to='/locations'><li className='hover:text-teal-700'>Locations</li></Link>
         <Link to='/contact'><li className='hover:text-teal-700'>Contact Us</li></Link>
